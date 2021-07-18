@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+    <title>Header</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            font-weight: bold;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            padding: 20px 0 20px;
+        }
+        a {
+            padding: 1.5% 2%;
+            /* background-color: rgb(180, 170, 33); */
+            text-decoration: none;
+        }
+        a:hover {
+            color: greenyellow;
+        }
+        
+        nav a:active{
+            text-decoration: underline;
+            /* border-bottom: 3px solid red; */
+        }
+        #navbarNavAltMarkup {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav_bar" id="nav_id">
+        <a onclick="fun(this,0)" href="about_us.html">About us</a>
+        <a onclick="fun(this,1)" href="work.html">Project</a>
+        <a onclick="fun(this,2)" href="contact.html">Contact</a>
+    </nav>
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="homepage.html">Satya Prakash</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="homepage.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="about_us.html">About Us</a>
+            <a class="nav-item nav-link" href="work.html">Project</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
+        </div> -->
+      <!-- </nav> -->
+    <script>
+        // let t = document.querySelector("#nav_id");
+        // if(t.target == 'A')
+        // t.style.backgroundColor = "red";
+        // let x = document.getElementById('nav_id');
+        // if(x.target)
+        function fun(x,t){
+            x.style.backgroundColor = "black";
+        }
+    // console.log(x.children.length);
+    </script>
+</body>
+</html>

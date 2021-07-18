@@ -1,0 +1,86 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+2OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>  
+$(function(){ 
+  $("#header").load("header.html");
+}); 
+</script>
+<style>
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .innerbody{
+            background-color: #dbbabd;
+            /* height: 90%; */
+            padding: 3% 8%;
+        }
+    .box{
+            /* height: 80%; */
+            background-color: rgb(181, 188, 199);
+            border-radius: 2%;
+            padding: 60px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+        }
+    .figur {
+        width: 38%;
+        min-width: 200px;
+        margin: 20px 5%;
+    }
+    .figur  img{
+        width: 100%;
+        height: auto;
+    }
+    h2{
+        font-size: larger;
+        color: rgb(116, 12, 20);
+        font-weight: bold;
+    }
+    p {
+        color: white;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <div id="header"></div>
+    <div class="innerbody">
+        <h1>PROJECT</h1>
+        <div class="box">
+            <div class="figur">
+                <a href="C:\Users\SP\Documents\Visual Studio Code\Clone\marco.html">
+                    <img src="assets/Screenshot50.png" alt="**">
+    
+                </a> <br>
+                <h2>Bloging website</h2>
+                <p>It is a bloging website.</p>
+            </div>
+            <div class="figur">
+                <a href="C:\Users\SP\Documents\Visual Studio Code\Web_Dev\web\super_app2.html">
+                    <img src="assets/Screenshot47.png" alt="**">
+    
+                </a>
+                <h2>Super app</h2>
+                <p>In this website you can find some good website of every category.</p>
+            </div>
+            <div class="figur">
+                <a href="C:\Users\SP\Documents\Visual Studio Code\Web_Dev\web\Timer.html">
+                    <img src="assets/Screenshot52.png" alt="**">
+    
+                </a>
+                <h2>Timer</h2>
+                <p>Demonstration of some JS concept.</p>
+            </div>
+            <div class="figur">
+                <a href="C:\Users\SP\Documents\Visual Studio Code\Web_Dev\E_com\first_page.html">
+                    <img src="assets/Screenshot54.png" alt="**">
+    
+                </a>
+                <h2>E-commerce website</h2>
+                <p>It is my working project....</p>
+            </div>
+        </div></div>
+<script>
+    let x = document.getElementById("header");
+    console.log(x);
+</script>
+</body>
