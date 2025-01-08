@@ -43,7 +43,9 @@ export default function Contact() {
         <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
         <div className="space-y-8">
           <p className="text-gray-300">
-            I&apos;m always open to new opportunities and collaborations.
+            Looking to collaborate on innovative projects or discuss technology? 
+            I'm always excited to connect with fellow developers and explore new opportunities 
+            in software development and AI integration.
           </p>
           <div className="flex gap-6">
             {socialLinks.map((social) => (

@@ -18,10 +18,10 @@ export default function Hero() {
             </span>
           </h1>
           <h2 className="text-xl sm:text-2xl text-gray-300 mb-6">
-            Software Engineer & AI Enthusiast
+            Full Stack Engineer & AI Innovation Enthusiast
           </h2>
           <p className="text-gray-400 mb-8">
-            Transforming ideas into elegant solutions through code and innovation.
+            Crafting scalable solutions and transforming complex challenges into elegant, user-centric applications.
           </p>
           <motion.a
             href="#contact"

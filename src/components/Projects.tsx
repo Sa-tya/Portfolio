@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 const projects = [
   {
     title: "VCDMS",
-    description: "A hardware management and streaming system built with VLC integration. Manages streaming hardware and provides real-time video streaming capabilities.",
+    description: "An enterprise-grade hardware management and streaming platform that orchestrates video content delivery. Features include real-time streaming, hardware monitoring, and automated failover mechanisms.",
     tech: ["React", "Redux", "Node.js", "MongoDB", "Nginx", "AWS", "VLC"],
     link: "#"
   },
   {
     title: "RadiumOne",
-    description: "A fintech dashboard application providing comprehensive financial data visualization and management capabilities.",
+    description: "A sophisticated fintech dashboard that streamlines financial data visualization and analysis. Delivers real-time insights and interactive reporting capabilities for informed decision-making.",
     tech: ["Angular", "State Management", "TypeScript"],
     link: "#"
   },
   {
     title: "Inocord",
-    description: "A sophisticated bot builder platform enabling users to create and manage custom bots. Contributing to both frontend and backend development.",
+    description: "An innovative bot-building platform that empowers users to create intelligent conversational agents. Contributing to both frontend architecture and backend microservices, enhancing the platform's scalability and user experience.",
     tech: ["React", "Next.js", "Node.js", "MongoDB", "PostgreSQL"],
     link: "https://reverieinc.com/products/indocord/"
   }
