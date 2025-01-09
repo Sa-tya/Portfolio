@@ -44,7 +44,7 @@ export default function Contact() {
         <div className="space-y-8">
           <p className="text-gray-300">
             Looking to collaborate on innovative projects or discuss technology? 
-            I'm always excited to connect with fellow developers and explore new opportunities 
+            I&apos;m always excited to connect with fellow developers and explore new opportunities 
             in software development and AI integration.
           </p>
           <div className="flex gap-6">
