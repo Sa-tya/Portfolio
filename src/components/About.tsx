@@ -13,7 +13,7 @@ export default function About() {
         <h2 className="text-3xl font-bold mb-8">About Me</h2>
         <div className="space-y-4 text-gray-300">
           <p>
-            I'm a Full Stack Engineer with 3 years of expertise in building enterprise-scale applications. 
+            I'm a Full Stack Engineer with 3 years of experience in building enterprise-scale applications. 
             With a strong foundation in Software Engineering, I've developed a deep understanding of software 
             architecture and system design principles.
           </p>
